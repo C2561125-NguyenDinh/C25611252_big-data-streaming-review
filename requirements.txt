@@ -1,0 +1,5 @@
+streamlit>=1.38,<2
+pandas>=2.0,<3
+plotly>=5.20,<7
+transformers>=4.44,<5
+torch>=2.2,<3
