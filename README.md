@@ -1,8 +1,9 @@
 # Big Data Streaming – Amazon Fashion Reviews
 
-Ứng dụng Streamlit mô phỏng luồng dữ liệu Amazon Fashion, đọc nội dung từ
-`reviewText`, phân tích cảm xúc bằng RoBERTa và tái tạo giao diện dashboard
-trong Google Colab, gồm bảng 7 review gần nhất và biểu đồ cột 3D.
+Ứng dụng Streamlit chạy luồng Amazon Fashion trong 1.800 giây giống notebook:
+đọc `reviewText`, phân tích RoBERTa, gửi qua OCI/Kafka và nhận lại bằng Consumer.
+
+Trước khi deploy, thêm `SASL_USERNAME` và `OCI_AUTH_TOKEN` vào Streamlit Secrets.
 
 ## Chạy trên máy
 

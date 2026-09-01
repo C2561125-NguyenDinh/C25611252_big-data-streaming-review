@@ -3,3 +3,6 @@ matplotlib>=3.8,<4
 numpy>=1.26,<3
 transformers>=4.44,<5
 torch>=2.2,<3
+requests>=2.31,<3
+certifi>=2024.7.4
+confluent-kafka>=2.5,<3
