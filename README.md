@@ -1,8 +1,8 @@
 # Big Data Streaming – Amazon Fashion Reviews
 
 Ứng dụng Streamlit mô phỏng luồng dữ liệu Amazon Fashion, đọc nội dung từ
-`reviewText` và phân tích cảm xúc bằng mô hình RoBERTa
-`cardiffnlp/twitter-roberta-base-sentiment-latest`.
+`reviewText`, phân tích cảm xúc bằng RoBERTa và tái tạo giao diện dashboard
+trong Google Colab, gồm bảng 7 review gần nhất và biểu đồ cột 3D.
 
 ## Chạy trên máy
 
